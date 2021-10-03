@@ -89,11 +89,22 @@ console.log(car["name"]);
 // console.log(car['brand']);
 // car.start();
 
-function sayHi(){
-    console.log(name);
-    console.log(age);
-    var name = "atik";
-    let age = 21;
-}
+// function sayHi(){
+//     console.log(name);
+//     console.log(age);
+//     var name = "atik";
+//     let age = 21;
+// }
 
-sayHi();
+// sayHi();
+
+// string langth
+
+let text = "sdwerujkcnvwejhrojskfaoeir";
+console.log(text.length);
+
+let f = "John";
+let k = new String("John");
+
+// console.log(f == k);
+console.log(f === k);
